@@ -1,0 +1,66 @@
+/* Reseteamos los estilos de margin y padding */
+{
+margin: 0;
+padding: 0;
+}
+/* Le dice al navegador que dibuje los elementos de HTML 5 como block */
+header, footer, aside, nav, article {
+display: block;
+}
+body {
+margin: 0 auto;
+width: 940px;
+font: 13px/22px Helvetica, Arial, sans-serif;
+background: #f0f0f0;
+}
+h2 {
+font-size: 28px;
+line-height: 44px;
+padding: 22px 0;
+}
+h3 {
+font-size: 18px;
+line-height: 22px;
+padding: 11px 0;
+}
+p {
+padding-bottom: 22px;
+}
+
+label {
+color: #B4886B;
+font-weight: bold;
+display: block;
+width: 150px;
+float: left;
+}
+label:after { content: ": " }
+
+
+ .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
